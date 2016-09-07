@@ -1,0 +1,14 @@
+#nabvar.navbar-default {
+  color: #fff !important;
+  background: transparent !important;
+  border: 0px;
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+
+#nabvar.navbar-inverse {
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+
+/*# sourceMappingURL=main.css.map */
