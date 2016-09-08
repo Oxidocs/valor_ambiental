@@ -5,8 +5,51 @@
 	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out
 	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out
 	transition: background .5s ease-in-out,padding .5s ease-in-out
+	.navbar-toggle:focus, .navbar-toggle:hover
+		background-color: transparent
+	.navbar-toggle
+		border-radius: 0px
+		border: 0px
+
+		.icon-bar
+			background-color: rgb(255, 255, 255)
+			.navbar-ex1-collapse
+				border-radius: none
+	.navbar-brand
+
+		svg.logo
+			-webkit-filter: drop-shadow( 2px 2px 1px #000 )
+			filter: drop-shadow( 2px 2px 1px #000 )
+			margin-top: -15px
+			padding: 10px
+			max-width: 50% !important
+			height: auto
+
+
+	.navbar-nav
+		li
+			font-size: 12pt
+			a
+				color: rgb(255, 255, 255)
+
 
 #nabvar.navbar-inverse
 	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out
 	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out
 	transition: background .5s ease-in-out,padding .5s ease-in-out
+
+.fotorama svg.logo
+	// display: block
+	// margin: auto
+	width: 70%
+	position: absolute
+	top: 50%
+	-webkit-transform: translateY(-50%)
+	-ms-transform: translateY(-50%)
+	transform: translateY(-50%)
+	left: 0
+	right: 0
+	margin: auto
+	text-align: center
+	-webkit-filter: drop-shadow( 2px 2px 1px #000 )
+	filter: drop-shadow( 2px 2px 1px #000 )
