@@ -47,5 +47,11 @@
 /*Css Contacto */
 #contacto {
   padding-top: 180px; }
+  #contacto .map {
+    width: 100vw; }
+
+@media(max-width:768px) {
+  #contacto {
+    padding-top: 40px; } }
 
 /*# sourceMappingURL=contacto.css.map */
