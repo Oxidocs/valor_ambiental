@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*Barra de Navegación */
+#nabvar.navbar-default {
+  color: #fff !important;
+  background: transparent !important;
+  border: 0px;
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+  #nabvar.navbar-default .navbar-toggle:focus, #nabvar.navbar-default .navbar-toggle:hover {
+    background-color: transparent; }
+  #nabvar.navbar-default .navbar-toggle {
+    border-radius: 0px;
+    border: 0px; }
+    #nabvar.navbar-default .navbar-toggle .icon-bar {
+      background-color: white; }
+      #nabvar.navbar-default .navbar-toggle .icon-bar .navbar-ex1-collapse {
+        border-radius: none; }
+  #nabvar.navbar-default .navbar-brand svg.logo {
+    -webkit-filter: drop-shadow(2px 2px 1px #000);
+    filter: drop-shadow(2px 2px 1px #000);
+    margin-top: -15px;
+    padding: 10px;
+    max-width: 50% !important;
+    height: auto; }
+  #nabvar.navbar-default .navbar-nav li {
+    font-size: 12pt; }
+    #nabvar.navbar-default .navbar-nav li a {
+      color: white; }
+
+#nabvar.navbar-inverse {
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+
+/*Barra de Navegación inversa */
+#nabvar.navbar-inverse .navbar-brand svg.logo {
+  -webkit-filter: drop-shadow(0.5px 0.5px 0.5px #f5f5f5);
+  filter: drop-shadow(0.5px 0.5px 0.5px #f5f5f5);
+  padding: 10px;
+  max-width: 30% !important;
+  height: auto;
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+
+/*Css Contacto */
+#contacto {
+  padding-top: 180px; }
+
+/*# sourceMappingURL=contacto.css.map */
