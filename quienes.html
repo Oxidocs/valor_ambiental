@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Valor Ambiental</title>
+		<meta name="author" content="Oxido Creative Studio">
+		<meta name="description" content="">
+		<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
+		<link href="bower_components/fotorama/fotorama.css" rel="stylesheet">
+		<link href="bower_components/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
+		<link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+	</head>
+<body>
+<header>
+  <nav id="nabvar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class='container'>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+        data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Desplegar navegación</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="hidden-xs navbar-brand" href="index.html"></a>
+      </div>
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quienes.html">Quienes Somos</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li class="active"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section id="videoquienes">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/85MppyLJHz0"  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="quienes">
+  <div class="container">
+    <div class="row">
+      <h1>Quienes Somos</h1>
+      <div class="col-lg-12">
+        <p class="lead">Valor Ambiental es una empresa Consultora en Servicios de Gestión Ambiental y Seguridad Industrial.</p>
+        <p class="lead">
+          Nace formalmente en el 2010 en la Región de Coquimbo, Chile, con el firme compromiso de dar respuesta rápida y eficiente a la creciente demanda de servicios de gestión ambiental del sector minero.
+        </p>
+        <p class="lead">
+          Nuestro equipo multidisciplinario está conformado por:
+          <div class="col-lg-3">
+            <h4>Ingenieros Ambientales</h4>
+            <h4>Arquitectos</h4>
+          </div>
+          <div class="col-lg-3">
+            <h4>Ingenieros en Obras Civiles</h4>
+            <h4>Ingenieros Mecánicos</h4>
+          </div>
+          <div class="col-lg-3">
+            <h4>Informáticos</h4>
+            <h4>Prevencionistas de Riesgos</h4>
+          </div>
+          <div class="col-lg-3">
+            <h4>Profesionales del área de Administración y Negocio</h4>
+          </div>
+        </p>
+
+          <p class="lead">Contamos además con un equipo de apoyo externo, quienes nos asesoran en
+          materias relativas a la normativa legal vigente asociada al ámbito ambiental, estudios hidrogeológicos, topográficos, mejoramiento continuo de nuestros procesos, soporte web, diseño de imagen corporativa y gestión de recursos humanos</p>
+
+          <p class="lead">Nuestra empresa ha implementado la norma internacional de la calidad ISO 9001:2008; NCH 9001:2009 a nuestros servicios de “Análisis de Aplicabilidad para Permisos Sectoriales” y “Elaboración y Tramitación de Permisos Sectoriales”, obteniendo dicha certificación hasta el 19 de agosto de 2019.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p>Copyright © Valor Ambiental 2016</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/fotorama/fotorama.js"></script>
+<script type="text/javascript" src="bower_components/lightbox2/dist/js/lightbox.min.js"></script>
+<script type="text/javascript" src="bower_components/wow/dist/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+<script type="text/javascript">
+  $(document).on("scroll",function(){
+          if($(document).scrollTop()>100) {
+              $(".navbar-header > .navbar-brand").addClass("hidden-xs hidden-sm hidden-lg hidden-md");
+              $("#nabvar").removeClass("navbar-default").addClass("navbar-inverse");
+            }
+          else {
+              $(".navbar-header > .navbar-brand").removeClass("hidden-sm hidden-lg hidden-md");
+              $("#nabvar").removeClass("navbar-inverse").addClass("navbar-default");
+            }
+
+                    });
+</script>
+</body>
+</html>
