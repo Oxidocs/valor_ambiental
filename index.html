@@ -11,7 +11,7 @@
 		<link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
 		<link href="bower_components/fotorama/fotorama.css" rel="stylesheet">
 		<link href="bower_components/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
-		<link href="bower_components/morris.js/morris.css" rel="stylesheet">
+		<link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
 	</head>
 	<body>
@@ -328,8 +328,10 @@
 		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="bower_components/fotorama/fotorama.js"></script>
 		<script type="text/javascript" src="bower_components/lightbox2/dist/js/lightbox.min.js"></script>
-		<script type="text/javascript" src="bower_components/raphael/raphael.min.js"></script>
-		<script type="text/javascript" src="bower_components/morris.js/morris.min.js"></script>
+		<script type="text/javascript" src="bower_components/wow/dist/wow.min.js"></script>
+		<script>
+      new WOW().init();
+    </script>
 		<script type="text/javascript">
 			$(document).on("scroll",function(){
 	            if($(document).scrollTop()>100) {
@@ -340,45 +342,7 @@
 									$(".navbar-header > .navbar-brand").removeClass("hidden-sm hidden-lg hidden-md");
 	                $("#nabvar").removeClass("navbar-inverse").addClass("navbar-default");
                 }
-														Morris.Bar({
-							  element: 'graph',
-							  axes: false,
-							  data: [
-							    {x: '2011 Q1', y: 3, z: 2, a: 3},
-							    {x: '2011 Q2', y: 2, z: null, a: 1},
-							    {x: '2011 Q3', y: 0, z: 2, a: 4},
-							    {x: '2011 Q4', y: 2, z: 4, a: 3}
-							  ],
-							  xkey: 'x',
-							  ykeys: ['y', 'z', 'a'],
-							  labels: ['Y', 'Z', 'A']
-							});
-							Morris.Bar({
-	element: 'graph2',
-	axes: false,
-	data: [
-		{x: '2011 Q1', y: 3, z: 2, a: 3},
-		{x: '2011 Q2', y: 2, z: null, a: 1},
-		{x: '2011 Q3', y: 0, z: 2, a: 4},
-		{x: '2011 Q4', y: 2, z: 4, a: 3}
-	],
-	xkey: 'x',
-	ykeys: ['y', 'z', 'a'],
-	labels: ['Y', 'Z', 'A']
-});
-Morris.Bar({
-element: 'graph3',
-axes: false,
-data: [
-{x: '2011 Q1', y: 3, z: 2, a: 3},
-{x: '2011 Q2', y: 2, z: null, a: 1},
-{x: '2011 Q3', y: 0, z: 2, a: 4},
-{x: '2011 Q4', y: 2, z: 4, a: 3}
-],
-xkey: 'x',
-ykeys: ['y', 'z', 'a'],
-labels: ['Y', 'Z', 'A']
-});
+
 						            });
 		</script>
 	</body>
