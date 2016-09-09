@@ -26,7 +26,9 @@
   #nabvar.navbar-default .navbar-nav li {
     font-size: 12pt; }
     #nabvar.navbar-default .navbar-nav li a {
-      color: white; }
+      color: white !important; }
+  #nabvar.navbar-default .navbar-nav .active a {
+    background-color: #0a0a0a !important; }
 
 #nabvar.navbar-inverse {
   -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
@@ -34,15 +36,17 @@
   transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
 
 /*Barra de Navegación inversa */
-#nabvar.navbar-inverse .navbar-brand svg.logo {
-  -webkit-filter: drop-shadow(0.5px 0.5px 0.5px #f5f5f5);
-  filter: drop-shadow(0.5px 0.5px 0.5px #f5f5f5);
-  padding: 10px;
-  max-width: 30% !important;
-  height: auto;
-  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+#nabvar.navbar-inverse {
+  border: 0px; }
+  #nabvar.navbar-inverse .navbar-brand svg.logo {
+    -webkit-filter: drop-shadow(0.5px 0.5px 0.5px #f5f5f5);
+    filter: drop-shadow(0.5px 0.5px 0.5px #f5f5f5);
+    padding: 10px;
+    max-width: 30% !important;
+    height: auto;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
 
 /*Css Contacto */
 #contacto {
