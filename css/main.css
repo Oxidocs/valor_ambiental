@@ -124,9 +124,9 @@
 /*mediaqueries */
 #areas {
   margin-top: 20px; }
-  #areas .row {
-    padding-left: 10px !important;
-    padding-right: 10px !important; }
+  #areas .col-sm-4 {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
   #areas h1 {
     margin: 0px !important;
     padding: 10px;
@@ -135,7 +135,8 @@
     color: #f5f5f5;
     padding: 10px; }
   #areas a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
   #areas .col-lg-4 {
     padding-left: 0px;
     padding-right: 0px; }
@@ -144,7 +145,7 @@
     background-size: cover;
     height: 330px; }
   #areas .wrapper2 {
-    padding-top: 80px;
+    padding-top: 40px;
     background-color: #f75200;
     height: 330px; }
   #areas .wrapper3 {
@@ -152,7 +153,7 @@
     background-size: cover;
     height: 330px; }
   #areas .wrapper4 {
-    padding-top: 80px;
+    padding-top: 40px;
     background-color: #1d5793;
     height: 330px; }
   #areas .wrapper5 {
@@ -160,11 +161,21 @@
     background-size: cover;
     height: 330px; }
   #areas .wrapper6 {
-    padding-top: 80px;
+    padding-top: 40px;
     background-color: #c606b2;
     height: 330px; }
+  #areas .btn-default {
+    margin-right: 10px !important;
+    border-radius: 0px !important;
+    border: 2px solid white;
+    background-color: transparent !important; }
 
-@media(max-width:768px) {}
+@media(max-width:767px) {
+  #areas .wrapper2 {
+    height: 390px; } }
+@media(max-width:1024px) {
+  #areas .wrapper1, #areas .wrapper2, #areas .wrapper3, #areas .wrapper4, #areas .wrapper5, #areas .wrapper6 {
+    height: 390px; } }
 /*footer */
 footer {
   padding: 10px;

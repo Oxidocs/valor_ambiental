@@ -1,8 +1,11 @@
 #areas
   margin-top: 20px
-  .row
-    padding-left: 10px !important
-    padding-right: 10px !important
+  .col-sm-4
+    padding-left: 0px !important
+    padding-right: 0px !important
+  // .row
+  //   padding-left: 10px !important
+  //   padding-right: 10px !important
   h1
     margin: 0px !important
     padding: 10px
@@ -12,6 +15,7 @@
     padding: 10px
   a
     text-decoration: none
+    color: rgb(255, 255, 255)
   .col-lg-4
     padding-left: 0px
     padding-right: 0px
@@ -20,7 +24,7 @@
     background-size: cover
     height: 330px
   .wrapper2
-    padding-top: 80px
+    padding-top: 40px
     background-color: rgb(247, 82, 0)
     height: 330px
   .wrapper3
@@ -28,7 +32,7 @@
     background-size: cover
     height: 330px
   .wrapper4
-    padding-top: 80px
+    padding-top: 40px
     background-color: rgb(29, 87, 147)
     height: 330px
 
@@ -37,21 +41,25 @@
     background-size: cover
     height: 330px
   .wrapper6
-    padding-top: 80px
+    padding-top: 40px
     background-color: rgb(198, 6, 178)
     height: 330px
+  .btn-default
+    margin-right: 10px !important
+    border-radius: 0px !important
+    border: 2px solid rgb(255, 255, 255)
+    background-color: transparent !important
 
-@media(max-width:768px)
+
+
+
+@media(max-width:767px)
 
   #areas
-    // margin-top: 0px
-    // .container
-    //   padding-left: 0px
-    //   padding-right: 0px
-    //   margin-left: 0px
-    //   margin-right: 0px
-    //   .row
-    //     margin-left: 0px !important
-    //     margin-right: 0px !important
-    //     padding-left: 0px !important
-    //     padding-right: 0px !important
+    .wrapper2
+      height: 390px
+
+@media(max-width:1024px)
+  #areas
+    .wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5, .wrapper6
+      height: 390px
