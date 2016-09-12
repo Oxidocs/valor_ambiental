@@ -171,28 +171,24 @@ footer {
 
 /*queines */
 #quienes {
-  background-color: whitesmoke; }
+  background-color: #41ba17; }
   #quienes p {
-    color: #3c3c3c; }
+    color: #f2f2f2; }
   #quienes ul {
     color: #f2f2f2; }
   #quienes h1 {
-    background-color: #02b6f9;
+    background-color: #f95402;
     color: white;
     padding: 10px;
     width: 330px;
-    margin-top: 10px; }
-  #quienes .panel-default {
-    border-radius: 0px;
-    border: none;
-    background-color: #e332c1;
-    color: whitesmoke;
-    text-align: left; }
-  #quienes .alert {
-    border-radius: 0px !important; }
+    margin-top: 0px; }
 
 #videoquienes {
-  background-color: #0e0e0e;
-  background-size: cover; }
+  background-color: #0e0e0e; }
+
+.equipo {
+  background-color: #26700d; }
+  .equipo p {
+    padding: 20px; }
 
 /*# sourceMappingURL=main.css.map */
