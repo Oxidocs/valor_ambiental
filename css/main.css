@@ -181,26 +181,18 @@ footer {
     color: white;
     padding: 10px;
     width: 330px;
-    margin-top: 0px; }
+    margin-top: 10px; }
   #quienes .panel-default {
     border-radius: 0px;
     border: none;
     background-color: #e332c1;
     color: whitesmoke;
-    text-align: center; }
+    text-align: left; }
+  #quienes .alert {
+    border-radius: 0px !important; }
 
 #videoquienes {
   background-color: #0e0e0e;
   background-size: cover; }
-
-.equipo {
-  background-color: #26700d; }
-  .equipo p {
-    padding: 20px; }
-
-#equipo {
-  background-color: #6e249a;
-  padding: 10px;
-  color: white; }
 
 /*# sourceMappingURL=main.css.map */
