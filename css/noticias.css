@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*Barra de Navegación */
 #nabvar.navbar-default {
   color: #fff !important;
   background: transparent !important;
@@ -48,14 +47,12 @@
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
 
-/*Css Contacto */
-#contacto {
+/* Slider Fotorama Home */
+#noticias {
   padding-top: 180px; }
-  #contacto .map {
-    width: 100vw; }
 
 @media(max-width:767px) {
-  #contacto {
+  #noticias {
     padding-top: 40px; } }
 
-/*# sourceMappingURL=contacto.css.map */
+/*# sourceMappingURL=noticias.css.map */
