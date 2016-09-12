@@ -75,6 +75,10 @@
     color: white; }
   #videos .col-xs-12 {
     padding: 10px; }
+  #videos h4 {
+    color: #ed6d09; }
+  #videos p {
+    color: #171717; }
 
 @media(max-width:768px) {
   #videos h1 {
@@ -136,7 +140,7 @@
     padding-left: 0px;
     padding-right: 0px; }
   #areas .wrapper1 {
-    background-image: url("../images/ave.jpg");
+    background-image: url("../images/equipo2.jpg");
     background-size: cover;
     height: 330px; }
   #areas .wrapper2 {
@@ -144,7 +148,7 @@
     background-color: #f75200;
     height: 330px; }
   #areas .wrapper3 {
-    background-image: url("../images/ave.jpg");
+    background-image: url("../images/ambiental.jpg");
     background-size: cover;
     height: 330px; }
   #areas .wrapper4 {
@@ -152,7 +156,7 @@
     background-color: #1d5793;
     height: 330px; }
   #areas .wrapper5 {
-    background-image: url("../images/paisaje.jpg");
+    background-image: url("../images/ingenieria2.jpg");
     background-size: cover;
     height: 330px; }
   #areas .wrapper6 {
