@@ -18,10 +18,8 @@
 	.navbar-brand
 
 		svg.logo
-			-webkit-filter: drop-shadow( 2px 2px 1px #000 )
-			filter: drop-shadow( 2px 2px 1px #000 )
+
 			margin-top: -15px
-			padding: 10px
 			max-width: 50% !important
 			height: auto
 
@@ -29,6 +27,7 @@
 	.navbar-nav
 		li
 			font-size: 12pt
+			background-color: rgba(0, 0, 0, 0.58)
 			a
 				color: rgb(255, 255, 255) !important
 		.active
@@ -40,3 +39,15 @@
 	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out
 	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out
 	transition: background .5s ease-in-out,padding .5s ease-in-out
+
+@media(max-width:767px)
+	#nabvar.navbar-default
+		.navbar-collapse
+			ul
+				li
+					background-color: rgba(0, 0, 0, 0.58)
+
+@media(min-width:1024px)
+	#nabvar.navbar-default
+		ul
+			padding-top: 20px
