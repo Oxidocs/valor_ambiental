@@ -34,6 +34,9 @@
   -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
 
+@media(max-width:767px) {
+  #nabvar.navbar-default .navbar-collapse ul li {
+    background-color: rgba(0, 0, 0, 0.58); } }
 /*Barra de Navegación inversa */
 #nabvar.navbar-inverse {
   border: 0px; }
@@ -48,8 +51,35 @@
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
 
 /* Slider Fotorama Home */
+footer {
+  padding: 10px;
+  background-color: #1d232d; }
+  footer p {
+    color: #4b4b4b;
+    text-align: center; }
+
+/* footer */
 #noticias {
-  padding-top: 180px; }
+  padding-top: 100px; }
+  #noticias h1 {
+    background-color: #f75200;
+    color: whitesmoke;
+    padding: 10px; }
+  #noticias a {
+    text-decoration: none;
+    color: #f75200; }
+  #noticias .btn-primary {
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    border: 1px solid #f75200; }
+
+#post {
+  padding-top: 100px; }
+  #post h1 {
+    color: #f75200; }
+  #post .datetime {
+    font-style: italic;
+    color: dimgray; }
 
 @media(max-width:767px) {
   #noticias {

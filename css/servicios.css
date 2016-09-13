@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*Barra de Navegación */
 #nabvar.navbar-default {
   color: #fff !important;
   background: transparent !important;
@@ -17,12 +16,14 @@
       #nabvar.navbar-default .navbar-toggle .icon-bar .navbar-ex1-collapse {
         border-radius: none; }
   #nabvar.navbar-default .navbar-brand svg.logo {
+    -webkit-filter: drop-shadow(2px 2px 1px #000);
+    filter: drop-shadow(2px 2px 1px #000);
     margin-top: -15px;
+    padding: 10px;
     max-width: 50% !important;
     height: auto; }
   #nabvar.navbar-default .navbar-nav li {
-    font-size: 12pt;
-    background-color: rgba(0, 0, 0, 0.58); }
+    font-size: 12pt; }
     #nabvar.navbar-default .navbar-nav li a {
       color: white !important; }
   #nabvar.navbar-default .navbar-nav .active a {
@@ -33,12 +34,6 @@
   -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
 
-@media(max-width:767px) {
-  #nabvar.navbar-default .navbar-collapse ul li {
-    background-color: rgba(0, 0, 0, 0.58); } }
-@media(min-width:1024px) {
-  #nabvar.navbar-default ul {
-    padding-top: 20px; } }
 /*Barra de Navegación inversa */
 #nabvar.navbar-inverse {
   border: 0px; }
@@ -52,28 +47,8 @@
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
 
-/*Css Contacto */
-#contacto {
-  padding-top: 100px; }
-  #contacto h1 {
-    background-color: #c606b2;
-    padding: 10px;
-    color: whitesmoke; }
-  #contacto .map {
-    width: 100vw; }
-  #contacto .datos {
-    padding-top: 10px;
-    padding-bottom: 20px; }
-  #contacto .form-control {
-    border-radius: 0px !important; }
-  #contacto .fa {
-    color: #13a0dd; }
-  #contacto .btn-info {
-    background-color: #13a0dd !important; }
-
-@media(max-width:768px) {
-  #contacto {
-    padding-top: 80px; } }
+/* Slider Fotorama Home */
+/*footer */
 footer {
   padding: 10px;
   background-color: #1d232d; }
@@ -81,6 +56,72 @@ footer {
     color: #4b4b4b;
     text-align: center; }
 
-/* footer */
+#ingenieria {
+  padding-top: 80px; }
+  #ingenieria h1 {
+    padding: 10px;
+    background-color: #f75200;
+    color: whitesmoke; }
+  #ingenieria p {
+    color: #303030; }
+  #ingenieria .panel-default {
+    border-radius: 0px;
+    border: none;
+    background-color: #f75200;
+    color: whitesmoke; }
+  #ingenieria img {
+    margin-top: 180px !important; }
 
-/*# sourceMappingURL=contacto.css.map */
+#ambiental {
+  background-color: #c606b2; }
+  #ambiental h1 {
+    padding: 10px;
+    color: whitesmoke; }
+  #ambiental p {
+    color: whitesmoke; }
+  #ambiental .panel-default {
+    border-radius: 0px;
+    border: none;
+    background-color: #6f0163;
+    color: whitesmoke; }
+  #ambiental img {
+    margin-top: 180px !important; }
+
+#documental h1 {
+  padding: 10px;
+  background-color: #1d5793;
+  color: whitesmoke; }
+#documental p {
+  color: #303030; }
+#documental .panel-default {
+  border-radius: 0px;
+  border: none;
+  background-color: #1d5793;
+  color: whitesmoke; }
+#documental img {
+  margin-top: 180px !important; }
+
+@media(max-width:767px);
+#ingenieria {
+  padding-top: 80px; }
+  #ingenieria h1 {
+    text-align: center; }
+  #ingenieria img {
+    margin-top: 0px !important; }
+
+#ambiental {
+  padding-top: 80px; }
+  #ambiental h1 {
+    text-align: center;
+    background-color: #6f0163; }
+  #ambiental img {
+    margin-top: 0px !important; }
+
+#documental {
+  padding-top: 80px; }
+  #documental h1 {
+    text-align: center; }
+  #documental img {
+    margin-top: 0px !important; }
+
+/*# sourceMappingURL=servicios.css.map */

@@ -7,12 +7,17 @@
 		<title>Valor Ambiental</title>
 		<meta name="author" content="Oxido Creative Studio">
 		<meta name="description" content="">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
-		<link href="bower_components/fotorama/fotorama.css" rel="stylesheet">
-		<link href="bower_components/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
 		<link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="bower_components/wow/dist/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
 	</head>
 <body>
 <header>
@@ -26,15 +31,68 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="hidden-xs navbar-brand" href="index.html"></a>
+        <a class="navbar-brand" href="index.html">
+					<svg version="1.1"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+						 x="0px" y="0px" width="154.289px" height="29.881px" viewBox="0 0 208.5 40.4" enable-background="new 0 0 208.5 40.4"
+						 xml:space="preserve">
+					<defs>
+					</defs>
+					<g>
+						<g>
+							<path fill="#FFFFFF" d="M45.1,0c5.9,15-4.2,31.4-20,31.4h-0.3H25h-0.3C8.9,31.4-1.2,15,4.7,0l0,0c-10.9,13.8-2.5,40.3,20,40.3H25
+								C47.5,40.4,55.9,13.9,45.1,0L45.1,0z"/>
+						</g>
+						<g>
+							<path fill="#FFFFFF" d="M14.3,25.2c-3.1-7.9,2.2-16.5,10.5-16.5H25h-0.2H25c8.3,0,13.6,8.6,10.5,16.5l0,0C41.2,17.9,36.8,4,25,4
+								h-0.2C13.1,4,8.7,17.9,14.3,25.2L14.3,25.2z"/>
+						</g>
+						<circle fill="#FFFFFF" cx="24.9" cy="20.2" r="4.2"/>
+						<g>
+							<path fill="#FFFFFF" d="M53.9,12.3h2.4l1.1,6.5l0.2,1.2l0.4,2.6c0.1,0.4,0.1,0.8,0.2,1.2c0,0.4,0.1,0.7,0.1,1l0.1,0.9
+								c0-0.2,0-0.3,0.1-0.5c0-0.1,0-0.3,0-0.3l0.3-2.1l0.4-2.7c0-0.2,0.1-0.5,0.1-0.7c0-0.2,0.1-0.4,0.1-0.6l1.1-6.5h2.2L59.2,30h-1.9
+								L53.9,12.3z"/>
+							<path fill="#FFFFFF" d="M67.4,12.3h1.9L73.1,30h-2.4L70,26.5h-3.5L65.8,30h-2.3L67.4,12.3z M69.7,24.7l-0.5-2.8
+								c-0.4-1.9-0.6-4-0.9-6.2c-0.1,1.1-0.2,2.1-0.4,3.2c-0.2,1.1-0.4,2.2-0.6,3.5l-0.4,2.3H69.7z"/>
+							<path fill="#FFFFFF" d="M76.2,12.3h2.4V28h3.9v2h-6.3V12.3z"/>
+							<path fill="#FFFFFF" d="M94.2,21.6c0,3.1-0.3,5.4-1,6.7c-0.7,1.3-1.9,2-3.5,2c-1.7,0-2.9-0.7-3.6-2.1c-0.7-1.4-1-3.8-1-7.4
+								c0-3.2,0.3-5.4,1-6.7c0.7-1.3,1.9-2,3.5-2c1.5,0,2.6,0.5,3.3,1.5c0.5,0.7,0.8,1.6,1,2.9C94.1,17.6,94.2,19.3,94.2,21.6z
+								 M91.7,21.8c0-3.1-0.1-5.1-0.4-6.1c-0.3-1-0.8-1.5-1.7-1.5c-0.8,0-1.4,0.5-1.7,1.4c-0.3,0.9-0.4,2.8-0.4,5.6
+								c0,2.6,0.1,4.4,0.4,5.4c0.3,0.9,0.9,1.4,1.7,1.4c0.8,0,1.4-0.4,1.7-1.3C91.6,25.8,91.7,24.2,91.7,21.8z"/>
+							<path fill="#FFFFFF" d="M97.9,12.3h3.1c1.3,0,2.3,0.3,2.9,0.9c0.8,0.8,1.2,2,1.2,3.7c0,1.3-0.2,2.3-0.6,3.1
+								c-0.4,0.8-1,1.2-1.8,1.4L106,30h-2.4l-3.2-8.7V30h-2.4V12.3z M100.3,20.1c0.9,0,1.6-0.2,2-0.6c0.4-0.4,0.6-1.2,0.6-2.2
+								c0-0.6,0-1-0.1-1.4c-0.1-0.4-0.2-0.7-0.4-1c-0.2-0.2-0.4-0.4-0.7-0.5s-0.6-0.2-1-0.2h-0.4V20.1z"/>
+							<path fill="#FFFFFF" d="M118.3,12.3h1.9L124,30h-2.4l-0.7-3.5h-3.5l-0.7,3.5h-2.3L118.3,12.3z M120.6,24.7l-0.5-2.8
+								c-0.4-1.9-0.6-4-0.9-6.2c-0.1,1.1-0.2,2.1-0.4,3.2c-0.2,1.1-0.4,2.2-0.6,3.5l-0.4,2.3H120.6z"/>
+							<path fill="#FFFFFF" d="M128.2,12.3h2l1.6,7.2c0.2,0.9,0.4,1.8,0.5,2.7c0.2,0.9,0.3,1.9,0.4,2.9c0-0.1,0-0.2,0-0.3
+								c0-0.1,0-0.1,0-0.2l0.3-2l0.3-1.9l0.3-1.3l1.4-7.1h2.1l1.6,17.7h-2.3l-0.4-6c0-0.3,0-0.6,0-0.8c0-0.2,0-0.4,0-0.6l-0.1-2.4
+								l-0.1-2.2c0,0,0,0,0-0.1c0,0,0-0.1,0-0.2l-0.1,0.4c-0.1,0.4-0.1,0.8-0.2,1.1c-0.1,0.3-0.1,0.6-0.1,0.8l-0.3,1.6l-0.1,0.6l-1.5,7.7
+								H132l-1.4-6.7c-0.2-0.9-0.4-1.8-0.5-2.7c-0.2-0.9-0.3-1.9-0.4-2.9L129,30h-2.3L128.2,12.3z"/>
+							<path fill="#FFFFFF" d="M142.2,12.3h3.2c2.5,0,3.8,1.6,3.8,4.7c0,1.2-0.2,2.1-0.5,2.7c-0.3,0.6-0.9,1-1.7,1.3c1,0.4,1.6,0.9,2,1.5
+								c0.4,0.6,0.5,1.5,0.5,2.7c0,3.3-1.4,4.9-4.2,4.9h-3.1V12.3z M144.5,20.1c0.9,0,1.6-0.2,1.9-0.6c0.4-0.5,0.5-1.2,0.5-2.4
+								c0-1.9-0.7-2.9-2.1-2.9h-0.2h-0.1c-0.1,0-0.1,0-0.1,0V20.1z M144.5,28c1,0,1.7-0.2,2-0.6s0.6-1.2,0.6-2.3c0-1.1-0.2-1.9-0.6-2.4
+								c-0.4-0.5-1.1-0.7-2-0.7V28z"/>
+							<path fill="#FFFFFF" d="M153.2,12.3h2.4V30h-2.4V12.3z"/>
+							<path fill="#FFFFFF" d="M159.6,12.3h6.3v2h-4v5.6h3.5v2H162V28h4v2h-6.3V12.3z"/>
+							<path fill="#FFFFFF" d="M169.5,12.3h2.2l2.4,7.1c0.7,2,1.3,4.1,1.8,6.4c-0.2-1.4-0.3-2.6-0.4-3.7c-0.1-1.1-0.1-2.2-0.1-3.1v-6.6
+								h2.4V30h-2.2l-2.7-8c-0.2-0.7-0.5-1.5-0.7-2.3c-0.2-0.8-0.4-1.6-0.6-2.5c0-0.1,0-0.2-0.1-0.4c0-0.2-0.1-0.3-0.1-0.5
+								c0,0.2,0,0.4,0.1,0.5c0,0.1,0,0.3,0,0.4l0.1,1.8l0.1,2.2c0,0.1,0,0.3,0,0.4c0,0.2,0,0.4,0,0.6l0.1,7.7h-2.4V12.3z"/>
+							<path fill="#FFFFFF" d="M180.8,12.3h7.8v2.1h-2.7V30h-2.3V14.4h-2.8V12.3z"/>
+							<path fill="#FFFFFF" d="M193.5,12.3h1.9l3.8,17.7h-2.4l-0.7-3.5h-3.5l-0.7,3.5h-2.3L193.5,12.3z M195.8,24.7l-0.5-2.8
+								c-0.4-1.9-0.6-4-0.9-6.2c-0.1,1.1-0.2,2.1-0.4,3.2c-0.2,1.1-0.4,2.2-0.6,3.5l-0.4,2.3H195.8z"/>
+							<path fill="#FFFFFF" d="M202.2,12.3h2.4V28h3.9v2h-6.3V12.3z"/>
+						</g>
+					</g>
+					</svg>
+        </a>
       </div>
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html">Home</a></li>
-          <li><a href="quienes.html">Quiénes Somos</a></li>
+          <li class="active"><a href="quienes.html">Quiénes Somos</a></li>
           <li><a href="servicios.html">Servicios</a></li>
           <li><a href="noticias.html">Noticias</a></li>
-          <li class="active"><a href="contacto.html">Contacto</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </div>
     </div>
@@ -55,7 +113,7 @@
 
 <section id="quienes">
   <div class="container">
-    <div class="row">
+    <div class="wow slideInLeft row">
       <h1>Quienes Somos</h1>
       <div class="col-lg-12">
         <p class="lead">Valor Ambiental es una empresa Consultora en Servicios de Gestión Ambiental y Seguridad Industrial.</p>
@@ -129,26 +187,7 @@
 
 
 
-<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="bower_components/fotorama/fotorama.js"></script>
-<script type="text/javascript" src="bower_components/lightbox2/dist/js/lightbox.min.js"></script>
-<script type="text/javascript" src="bower_components/wow/dist/wow.min.js"></script>
-<script>
-  new WOW().init();
-</script>
-<script type="text/javascript">
-  $(document).on("scroll",function(){
-          if($(document).scrollTop()>100) {
-              $(".navbar-header > .navbar-brand").addClass("hidden-xs hidden-sm hidden-lg hidden-md");
-              $("#nabvar").removeClass("navbar-default").addClass("navbar-inverse");
-            }
-          else {
-              $(".navbar-header > .navbar-brand").removeClass("hidden-sm hidden-lg hidden-md");
-              $("#nabvar").removeClass("navbar-inverse").addClass("navbar-default");
-            }
 
-                    });
-</script>
+
 </body>
 </html>
