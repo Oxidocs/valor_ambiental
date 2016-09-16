@@ -175,9 +175,15 @@
     background-color: transparent !important; }
 
 @media(max-width:767px) {
+  #videoquienes {
+    padding-top: 60px;
+  }
   #areas .wrapper2 {
     height: 390px; } }
 @media(max-width:1024px) {
+  #videoquienes {
+    padding-top: 80px;
+  }
   #areas .wrapper1, #areas .wrapper2, #areas .wrapper3, #areas .wrapper4, #areas .wrapper5, #areas .wrapper6 {
     height: 390px; } }
 /*footer */
