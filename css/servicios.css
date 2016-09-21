@@ -64,20 +64,20 @@ footer {
   padding-top: 80px; }
   #ingenieria h1 {
     padding: 10px;
-    background-color: #f75200;
+    background-color: rgb(234, 121, 23);
     color: whitesmoke; }
   #ingenieria p {
     color: #303030; }
   #ingenieria .panel-default {
     border-radius: 0px;
     border: none;
-    background-color: #f75200;
+    background-color: rgb(234, 121, 23);
     color: whitesmoke; }
   #ingenieria img {
     margin-top: 180px !important; }
 
 #ambiental {
-  background-color: #c606b2; }
+  background-color: rgb(79, 186, 46); }
   #ambiental h1 {
     padding: 10px;
     color: whitesmoke; }
@@ -86,21 +86,21 @@ footer {
   #ambiental .panel-default {
     border-radius: 0px;
     border: none;
-    background-color: #6f0163;
+    background-color: rgb(51, 122, 29);
     color: whitesmoke; }
   #ambiental img {
     margin-top: 180px !important; }
 
 #documental h1 {
   padding: 10px;
-  background-color: #1d5793;
+  background-color: rgb(99, 70, 32);
   color: whitesmoke; }
 #documental p {
   color: #303030; }
 #documental .panel-default {
   border-radius: 0px;
   border: none;
-  background-color: #1d5793;
+  background-color: rgb(99, 70, 32);
   color: whitesmoke; }
 #documental img {
   margin-top: 180px !important; }
@@ -117,7 +117,7 @@ footer {
   padding-top: 80px; }
   #ambiental h1 {
     text-align: center;
-    background-color: #6f0163; }
+    background-color: rgb(51, 122, 29); }
   #ambiental img {
     margin-top: 0px !important; }
 

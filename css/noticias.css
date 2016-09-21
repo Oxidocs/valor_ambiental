@@ -63,21 +63,21 @@ footer {
 #noticias {
   padding-top: 100px; }
   #noticias h1 {
-    background-color: #f75200;
+    background-color: rgb(234, 121, 23);
     color: whitesmoke;
     padding: 10px; }
   #noticias a {
     text-decoration: none;
-    color: #f75200; }
+    color: rgb(234, 121, 23); }
   #noticias .btn-primary {
     background-color: transparent !important;
     border-radius: 0px !important;
-    border: 1px solid #f75200; }
+    border: 1px solid rgb(234, 121, 23); }
 
 #post {
   padding-top: 100px; }
   #post h1 {
-    color: #f75200; }
+    color: rgb(234, 121, 23); }
   #post .datetime {
     font-style: italic;
     color: dimgray; }
