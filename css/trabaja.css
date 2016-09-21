@@ -1,0 +1,33 @@
+/*Css Contacto */
+#trabaja {
+  padding-top: 100px; }
+  #trabaja h1 {
+    background-color: rgb(234, 121, 23);;
+    padding: 10px;
+    color: whitesmoke; }
+  #trabaja .map {
+    width: 100vw; }
+  #trabaja .datos {
+    padding-top: 10px;
+    padding-bottom: 20px; }
+  #trabaja .form-control {
+    border-radius: 0px !important; }
+  #trabaja .fa {
+    color: rgb(79, 186, 46); }
+  #trabaja .btn-info {
+    background-color: rgb(79, 186, 46) !important;
+    border-color: rgb(79, 186, 46) !important;
+   }
+
+@media(max-width:768px) {
+  #trabaja {
+    padding-top: 80px; } }
+footer {
+  margin-top: 120px;
+  padding: 10px;
+  background-color: #1d232d; }
+  footer p {
+    color: #bababa;
+    text-align: center; }
+
+/* footer */
