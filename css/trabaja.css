@@ -19,9 +19,9 @@
     border-color: rgb(79, 186, 46) !important;
    }
 
-@media(max-width:768px) {
+@media(max-width:767px) {
   #trabaja {
-    padding-top: 80px; } }
+    padding-top: 100px; } }
 footer {
   margin-top: 120px;
   padding: 10px;
