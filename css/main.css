@@ -150,7 +150,7 @@
     height: 330px; }
   #areas .wrapper2 {
     padding-top: 40px;
-    background-color: #f75200;
+    background-color: rgb(234, 121, 23);
     height: 330px; }
   #areas .wrapper3 {
     background-image: url("../images/ambiental.jpg");
@@ -158,7 +158,7 @@
     height: 330px; }
   #areas .wrapper4 {
     padding-top: 40px;
-    background-color: #1d5793;
+    background-color: rgb(99, 70, 32);
     height: 330px; }
   #areas .wrapper5 {
     background-image: url("../images/ingenieria2.jpg");
@@ -166,7 +166,7 @@
     height: 330px; }
   #areas .wrapper6 {
     padding-top: 40px;
-    background-color: #c606b2;
+    background-color: rgb(79, 186, 46);
     height: 330px; }
   #areas .btn-default {
     margin-right: 10px !important;
@@ -175,9 +175,15 @@
     background-color: transparent !important; }
 
 @media(max-width:767px) {
+  #videoquienes {
+    padding-top: 60px;
+  }
   #areas .wrapper2 {
     height: 390px; } }
 @media(max-width:1024px) {
+  #videoquienes {
+    padding-top: 80px;
+  }
   #areas .wrapper1, #areas .wrapper2, #areas .wrapper3, #areas .wrapper4, #areas .wrapper5, #areas .wrapper6 {
     height: 390px; } }
 /*footer */
@@ -196,7 +202,7 @@ footer {
   #quienes ul {
     color: #f2f2f2; }
   #quienes h1 {
-    background-color: #02b6f9;
+    background-color: rgb(234, 121, 23);
     color: white;
     padding: 10px;
     width: 330px;
@@ -204,7 +210,7 @@ footer {
   #quienes .panel-default {
     border-radius: 0px;
     border: none;
-    background-color: #e332c1;
+    background-color: rgb(79, 186, 46);
     color: whitesmoke;
     text-align: left; }
   #quienes .alert {
